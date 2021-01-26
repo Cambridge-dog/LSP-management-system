@@ -1,0 +1,9 @@
+1. For each LSP, it should be allocated with attributes of their name, birth date, gender, social background and level of SP.
+Hence, establish a table with unique ID as main key and other attributes listed above.
+2. Customer should be able to access all locations of appearances of LSPs.
+Hence, establish a table with unique ID as main key and other attributes listed above.
+And then create a middle table for n-n relationship between locations and LSPs.
+The middle table should have both IDs for LSPs and locations, time interval of appearances and brief introduction of the LSP activities.
+3. Customer should be able to access all treatments that LSPs receives.
+Hence, establish a table with LSP ID as main key with attributes.
+( doctors’ names, date of treatment, duration of treatment, and mental activities of LSPs after treatment)
